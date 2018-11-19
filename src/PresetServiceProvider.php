@@ -17,6 +17,8 @@ class PresetServiceProvider extends ServiceProvider
     {
         PresetCommand::macro('thisisamacro', function ($command){
             Preset::install();
+
+            $command->info('All Finished!');
         });
     }
 
