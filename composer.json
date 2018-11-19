@@ -1,0 +1,23 @@
+{
+    "name": "laracast/preset",
+    "description": "preset tutorial from laracast",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ping Layson",
+            "email": "ping.layson@gtdollar.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Laracast\\Preset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : ["Laracast\\Preset\\PresetServiceProvider"]
+        }
+    }
+}
